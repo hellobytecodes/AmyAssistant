@@ -107,7 +107,7 @@ That's it — no environment variables or `export` commands needed. (If you *do*
 2. On first run, macOS will ask for **Microphone** and **Accessibility** permissions (the latter is needed for keyboard/mouse control and screenshots) — grant both in *System Settings → Privacy & Security*.
 3. Install dependencies:
    ```bash
-   cd amy_assistant
+   cd AmyAssistant
    pip3 install -r requirements.txt
    ```
 4. Run Amy:
@@ -130,7 +130,7 @@ That's it — no environment variables or `export` commands needed. (If you *do*
    ```
 4. Install Python dependencies:
    ```bash
-   cd amy_assistant
+   cd AmyAssistant
    pip3 install -r requirements.txt
    ```
 5. Run Amy:
