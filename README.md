@@ -3,6 +3,9 @@
 **Amy** is a Jarvis-style voice assistant that talks to you through Google's **Gemini Live API** — a natural, low-latency, native female voice (not a separate text-to-speech bolt-on). Say her name, and she can open apps, manage files, search your whole computer, run terminal commands, see your screen, control your system volume and power state, and generally act as a full-access AI operator for your machine — all behind a sleek, glowing, frameless glass-style GUI.
 
 ---
+# ScreenShot Ui
+![ScreenAmy](ScreenAmy.png)
+---
 
 ## ✨ Features
 
