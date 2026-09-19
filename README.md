@@ -29,7 +29,7 @@
 ## 📁 Project Structure
 
 ```
-amy_assistant/
+AmyAssistant/
 ├── main.py                   # Application entry point
 ├── config.py                 # All settings, including your API key
 ├── requirements.txt
@@ -68,7 +68,7 @@ Before installing Amy, make sure you have:
 
 ## 🔧 Step 2 — Paste Your Key into `config.py`
 
-Open `amy_assistant/config.py` in any text editor and find this line:
+Open `config.py` in any text editor and find this line:
 
 ```python
 GEMINI_API_KEY = "PASTE_YOUR_GEMINI_API_KEY_HERE"
