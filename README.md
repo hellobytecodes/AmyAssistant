@@ -89,10 +89,10 @@ That's it — no environment variables or `export` commands needed. (If you *do*
 ### 🪟 Windows
 
 1. Install Python from [python.org](https://www.python.org/downloads/) — during setup, check **"Add Python to PATH"**.
-2. Download or clone the `amy_assistant` folder.
+2. Download or clone the `AmyAssistant` folder.
 3. Open **Command Prompt** or **PowerShell** in that folder and run:
    ```bash
-   cd amy_assistant
+   cd AmyAssistant
    pip install -r requirements.txt
    ```
 4. For precise system volume control on Windows, `pycaw` will be installed automatically (it's Windows-only and listed as an optional dependency in `requirements.txt`). Without it, Amy falls back to using media keys.
