@@ -1,0 +1,45 @@
+# Gemini Live API (native two-way audio + function calling)
+google-genai>=1.40.0
+
+# GUI
+PyQt6>=6.6.0
+
+# Audio capture / playback (prebuilt wheels on Windows/macOS/Linux -- no
+# compiler needed, unlike PyAudio)
+sounddevice>=0.4.6
+numpy>=1.24.0
+
+# Wake-word speech-to-text (used only for text recognition; microphone
+# capture itself goes through sounddevice above, not through this library's
+# own Microphone/PyAudio backend)
+SpeechRecognition>=3.10.0
+
+# Screenshots for "look at my screen" (Pillow shrinks them so they upload fast)
+mss>=9.0.1
+Pillow>=10.0.0
+
+# Clipboard read/write tools
+pyperclip>=1.8.2
+
+# System info (CPU/RAM/disk, running processes)
+psutil>=5.9.0
+
+# Keyboard / mouse control (type, press keys, click, scroll)
+pyautogui>=0.9.54
+
+# Deleting to the Recycle Bin / Trash instead of erasing forever
+send2trash>=1.8.2
+
+# Exact volume control on Windows (falls back to media keys without it)
+pycaw; sys_platform == "win32"
+
+# --- Optional: fully offline wake-word engine ---
+# Uncomment if you set WAKE_WORD_ENGINE = "vosk" in config.py.
+# vosk>=0.3.45
+
+# --- Platform notes ---
+# Python 3.9+ is required.
+# sounddevice needs the PortAudio native library, which its wheel already
+# bundles on Windows and macOS. On Linux, if import fails, install:
+#   sudo apt install libportaudio2
+# pyautogui on Linux additionally needs:  sudo apt install python3-tk scrot
